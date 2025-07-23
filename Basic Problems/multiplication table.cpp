@@ -1,3 +1,5 @@
+// Program for multiplication table
+
 #include<iostream>
 using namespace std;
 
