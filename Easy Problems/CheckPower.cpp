@@ -8,6 +8,12 @@ int main(){
     cin>>a;
     cout << "Enter base b: ";
     cin>>b;
-
+    if (b%a==0)
+    {
+        cout<<"True";
+    }
+    else{
+        cout<<"false";
+    }
     
 }
