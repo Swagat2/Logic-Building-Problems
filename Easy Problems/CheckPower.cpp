@@ -8,9 +8,11 @@ int main(){
     cin>>a;
     cout << "Enter base b: ";
     cin>>b;
+     bool isPower = false;
     if (b%a==0)
     {
-        cout<<"True";
+        isPower = True;
+        break; 
     }
     else{
         cout<<"false";
